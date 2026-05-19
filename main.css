@@ -36,7 +36,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-blend-mode: overlay;
+    background-blend-mode: soft-light;
     color: var(--color-text-primary);
     position: relative;
     overflow-x: hidden;
@@ -621,15 +621,6 @@ body::before {
     border: 2px solid rgba(46, 204, 113, 0.9);
     overflow: hidden;
     min-height: 680px;
-}
-
-.profile-card {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    min-height: 100%;
 }
 
 .profile-card-body {
